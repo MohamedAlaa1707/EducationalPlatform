@@ -1,0 +1,31 @@
+<div class="manage-account-container">
+  <h3 style="text-align: center;">Manage Student Account</h3>
+
+  <form [formGroup]="manageAccountForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <!-- <label for="email">Student Email:</label> -->
+      <input id="email" formControlName="email" type="email" class="form-control" placeholder="Enter student email" />
+      <div *ngIf="manageAccountForm.get('email')?.invalid && manageAccountForm.get('email')?.touched" class="error-message">
+        Please enter a valid email address.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <!-- <label for="password">New Password:</label> -->
+      <input id="password" formControlName="newPassword" type="password" class="form-control" placeholder="Enter new password" />
+      <div *ngIf="manageAccountForm.get('newPassword')?.invalid && manageAccountForm.get('newPassword')?.touched" class="error-message">
+        Password must be at least 6 characters long.
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="manageAccountForm.invalid">Update Password</button>
+  </form>
+
+  <div *ngIf="successMessage" class="success-message">
+    {{ successMessage }}
+  </div>
+
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+</div>

@@ -1,0 +1,49 @@
+
+<div *ngIf="ErrorMessage" class="alert alert-danger mt-2" style="text-align: center;">
+  {{ ErrorMessage }}
+
+ </div>
+
+<div class="body">
+
+<!-- <div class="rectangle" style="width: 400px; background-color: azure;">
+
+</div> -->
+<div class="login-header">
+    <h1 style="color: white; font-size: 60px; position: relative; left: 500px; top: -100px; font-family: Garamond !important; ">Login</h1>
+    <img src="Images/logo.png" style="width: 300px; position: relative; left: 430px; top: -50px" alt="logo">
+</div>
+
+
+
+
+<div class="login-card mx-auto" style="height: 453px;left:-30px ; opacity: 10%; border-radius: 10px 0 0 10px; z-index: 2; position:relative ;"> 
+</div>
+
+  <div class="login-card mx-auto" style="right:250px; border-radius: 0 10px 10px 0;">
+      <!-- <div class="login-header">
+          <h2>Login</h2>
+      </div> -->
+      <div class="input-group">
+          <!-- <label for="username">Username</label> -->
+          <input type="text" id="username" name="username" placeholder="Enter your Email" #email>
+      </div>
+      <div class="input-group">
+          <!-- <label for="password">Password</label> -->
+          <input type="password" id="password" name="password" placeholder="Enter your Password" #pass>
+      </div>
+      <button class="login-button" (click)="log(email.value, pass.value)">Login</button>
+
+      <div class="registration">
+
+        <a class="nav-link" routerLink="/forgotpassword/">    Forgotten password? </a>
+        </div>
+
+      <div class="registration">
+          Don't have an account? 
+          <button (click)="navigateToRegistration()" class="btn-secondary">Go to Registration</button>
+      </div>
+
+      <div class="text-danger">{{err}}</div>
+  </div>
+  </div>

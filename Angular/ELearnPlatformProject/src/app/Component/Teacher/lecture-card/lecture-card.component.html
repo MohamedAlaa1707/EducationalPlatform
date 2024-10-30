@@ -1,0 +1,36 @@
+
+<div class="lecturesContainer">
+  <div class="lecture-card" *ngFor="let lecture of lectures">
+    <div class="video-container">
+
+      <video width="320" height="200" controls>
+        <source src="{{ lecture.videoURL }}" type="video/mp4" />
+        <source src="{{ lecture.videoURL }}" type="video/webm" />
+        <source src="{{ lecture.videoURL }}" type="video/ogg">
+
+        Your browser does not support the video tag.
+      </video>
+      <!-- <div>{{ lecture.videoURL }}</div> -->
+      <!-- <i class="fas fa-play play-button"></i> -->
+    </div>
+
+    <div class="lecture-info">
+      <div class="lecture-title-description">
+        <div class="lecture-title">{{ lecture.title }}</div>
+        <div class="lecture-price">{{ lecture.feeAmount }} Pounds</div>
+      </div>
+
+      <div class="lecture-description">{{ lecture.description }}</div>
+    </div>
+
+    <div class="lecture-date-time">
+      <!-- <div>Parts: {{ lecture.part }}</div> -->
+      <div>Date: {{ lecture.uploadDate }}</div>
+      <!-- <div>Time: {{ lecture.time }}</div>  -->
+    </div>
+
+    <button class="edit-button" (click)="onEdit(lecture)">Edit</button>
+  </div>
+</div>
+
+<app-edit-lecture *ngIf="showModal" [lecture]="selectedLec" (onSave)="onSave($event)" (onClose)="onClose()"></app-edit-lecture>

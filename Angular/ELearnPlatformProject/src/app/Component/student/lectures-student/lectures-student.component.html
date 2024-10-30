@@ -1,0 +1,73 @@
+<div class="container">
+
+  <!-- Success and Error Messages -->
+  <div *ngIf="successMessage" class="alert alert-success mt-2 success-message">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="ErrorMessage" class="alert alert-danger mt-2 error-message">
+    {{ ErrorMessage }}
+  </div>
+
+  <!-- Lessons List -->
+  <div class="row">
+    <div *ngIf="Lesson && Lesson.length > 0; else noLessons">
+      <div class="col-12">
+        <div class="row">
+          <div *ngFor="let item of Lesson" class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="image-container">
+                <img src="Images/lessonVideo.jpg" class="card-img-top" alt="Lecture Image" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> {{item.title}}</h5>
+                <p> {{item.description}}</p>
+                <p class="card-text" style="font-weight: bold; color: rgb(37, 181, 37);">Price: {{item.feeAmount}} LE</p>
+                <div>Date: {{item.uploadDate}}</div>
+              </div>
+
+              <!-- Access Status Handling -->
+              @if (item.hasVideoAccess == "Pending") {
+                <div class="form-label text-center" style="color: #2c3e50; line-height: 1.8;">
+                  <i class="fas fa-spinner fa-spin" style="margin-right: 10px;"></i>
+                  <!-- Pending while Admin Accept your receipt , For any problem contact as  <strong>[0100000]</strong>. -->
+                  <br>
+
+                  <p class="" style="color: #2c3e50;">Your receipt is pending. For contact:  <strong>01099962058</strong>.</p>
+                </div>
+              }
+              @else if (item.hasVideoAccess == "Yes") {
+                <div class="card-footer" >
+                  <button (click)="WatchVedio(item)" class="btn" style="width: 100%;">Watch Now</button>
+                </div>
+              }
+              @else {
+                <div class="card-footer">
+
+                  <!-- Wishlist Button -->
+                  @if (item.islessonInWishlist === 'NO') {
+                    <button #wis class="wish-list-button" (click)="addToWishList(wis,item)" >
+                      <i class="fas fa-heart" style="color: white; font-size: 30px;"></i>
+                    </button>
+                  }
+                  @else {
+                    <button #wis class="wish-list-button" (click)="remove(wis,item)"  >
+                      <i class="fas fa-heart"  style="color:red; font-size: 30px;"></i>
+                    </button>
+                  }
+                  <button (click)="goToReceipt(item)" class="btn btn-primary "  style="margin-top: -6px; position: relative; right: 5px;">Receipt</button>
+                  <button (click)=" goToReceiptpaypal(item)" class="btn btn-primary" style="margin-top: -6px; position: relative; ">Paypal</button>
+
+                </div>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- No Lessons Message -->
+    <ng-template #noLessons>
+      <p>No lessons available.</p>
+    </ng-template>
+  </div>
+</div>

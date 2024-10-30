@@ -1,0 +1,23 @@
+
+<div class="wishlist-container">
+  <h1>Wishlist</h1>
+  <br><br>
+
+  <div *ngIf="wishlist.length === 0">
+    <p class="empty-message">Your wishlist is empty.</p>
+  </div>
+
+  <div *ngIf="wishlist.length > 0" class="wishlist-grid">
+    <div class="item" *ngFor="let lesson of wishlist">
+      <div class="item-title">{{ lesson.title }}</div>
+      <div class="item-description">{{ lesson.description }}</div>
+      <div class="item-feeAmount">Price: {{ lesson.feeAmount }} LE</div>
+      
+      <div class="button-container">
+        <button class="button " (click)="getlesson(lesson)">Receipt</button>
+        <button class="button " (click)="getPaypal(lesson)">Paypal</button>
+        <button class="button button-danger" (click)="removeFromWishlist(lesson)">Remove</button>
+      </div>
+    </div>
+  </div>
+</div>

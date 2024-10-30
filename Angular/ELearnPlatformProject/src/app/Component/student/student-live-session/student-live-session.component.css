@@ -1,0 +1,26 @@
+.live-session {
+  padding: 20px;
+}
+
+#videoElement {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.chat {
+  margin-top: 20px;
+}
+
+.messages {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+}

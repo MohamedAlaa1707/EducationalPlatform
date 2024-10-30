@@ -1,0 +1,45 @@
+.lesson-section {
+  margin: 20px 0; /* إضافة مسافة عمودية بين الأقسام */
+  padding: 20px;
+  background-color: #ecf0f1; /* لون خلفية القسم */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed; /* يجعل عرض الأعمدة ثابتًا */
+  border-collapse: collapse; /* إزالة الفراغات بين خلايا الجدول */
+}
+
+.table th,
+.table td {
+  width: 50%;
+  max-width: 50%;
+  overflow: auto; /* إضافة شريط تمرير عند زيادة المحتوى */
+  white-space: normal; /* السماح بتجاوز الأسطر */
+  word-wrap: break-word; /* السماح بتقسيم الكلمات الطويلة */
+  padding: 10px; /* إضافة حشوة للخلايا */
+  text-align: left; /* محاذاة النص إلى اليسار */
+}
+
+.table th {
+  background-color: #2c3e50; /* لون خلفية رأس الجدول */
+  color: white; /* لون النص في رأس الجدول */
+}
+
+.table td {
+  background-color: #f9f9f9; /* لون خلفية خلايا الجدول */
+}
+
+/* أسلوب تفاعلي عند تمرير الماوس فوق الجدول */
+.table tr:hover {
+  background-color: #f1f1f1; /* تغيير لون الخلفية عند التمرير */
+}

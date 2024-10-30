@@ -1,0 +1,44 @@
+
+<!-- Nav-Bar -->
+<nav class="navbar-dark" style="background-color: #2c3e50; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; margin-bottom: 50px; display: flex; justify-content: space-between;  font-family: 'Lucida Sans', sans-serif;">
+  <div>
+
+    <a cNavbarBrand style="margin-left: 20px;">
+      <img src="Images/logo.png" style="width:250px;"/>
+    </a>
+  </div>
+ <div style="color: white;  margin-right: 20px; display: flex; width: 200px;">
+
+  <button class="btn custom-logout-button" (click)="logout()">
+    <i class="fas fa-sign-out-alt"></i> Logout
+  </button>
+ </div>
+</nav>
+
+
+<nav class="sidebar">
+  <div class="sidebar-sticky">
+    <ul class="nav flex-column">
+      <li id="Name" class="nav-item">Welcome / {{Name}}</li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="Receipt/">
+          <i class="fas fa-file-upload"></i> Receipt
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="ManageAccounts/">
+          <i class="fas fa-cog"></i> Manage Accounts
+        </a>
+      </li>
+
+      <!-- <li class="nav-item">
+        <button class="btn custom-logout-button" (click)="logout()">
+          <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+      </li> -->
+
+    </ul>
+  </div>
+</nav>

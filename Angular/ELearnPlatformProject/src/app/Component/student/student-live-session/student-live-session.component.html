@@ -1,0 +1,18 @@
+<div class="live-session">
+  <h1>{{ session.title }}</h1>
+  <p><strong>Instructor:</strong> {{ session.instructor }}</p>
+  <p>{{ session.description }}</p>
+
+  <video #remoteVideo autoplay playsinline style="width: 45%;" ></video>
+
+  <div class="chat">
+    <h2>Chat</h2>
+    <div class="messages" *ngFor="let message of messages">
+      <strong>{{ message.sender }}:</strong> {{ message.text }}
+    </div>
+    <input [(ngModel)]="newMessage" (keydown.enter)="sendMessage()" placeholder="Type your message..." />
+  </div>
+
+  <button (click)="startWatching()">Watch Live</button>
+  <button (click)="leaveSession()">Leave Session</button>
+</div>

@@ -1,0 +1,34 @@
+<div class="admin-account-container">
+  <h2>Manage Admin Account</h2>
+
+  <form [formGroup]="adminAccountForm" (ngSubmit)="setAdminPassword()">
+    <div>
+      <!-- <label for="email">Admin Email:</label> -->
+      <input id="email" formControlName="email" type="email" placeholder="Enter admin email" required>
+      <div *ngIf="adminAccountForm.get('email')?.invalid && adminAccountForm.get('email')?.touched" class="error">
+        Please enter a valid email.
+      </div>
+    </div>
+
+    <div>
+      <!-- <label for="newPassword">New Password:</label> -->
+      <input id="newPassword" formControlName="newPassword" type="password" placeholder="Enter new password" required>
+      <div *ngIf="adminAccountForm.get('newPassword')?.invalid && adminAccountForm.get('newPassword')?.touched" class="error">
+        Password must be at least 8 characters.
+      </div>
+    </div>
+
+    <div>
+      <!-- <label for="confirmPassword">Confirm Password:</label> -->
+      <input id="confirmPassword" formControlName="confirmPassword" type="password" placeholder="Confirm new password" required>
+      <div *ngIf="adminAccountForm.hasError('notMatching') && adminAccountForm.get('confirmPassword')?.touched" class="error">
+        Passwords do not match.
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="!adminAccountForm.valid">Set Password</button>
+
+    <div *ngIf="successMessage" class="success">{{ successMessage }}</div>
+    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+  </form>
+</div>

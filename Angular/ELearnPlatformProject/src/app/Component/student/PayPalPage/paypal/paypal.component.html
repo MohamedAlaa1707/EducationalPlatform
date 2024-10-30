@@ -1,0 +1,10 @@
+<div class="paypal-container">
+    <h2>PayPal Payment</h2>
+    <div *ngIf="approvalUrl; else paymentButton">
+      <p>Redirecting to PayPal...</p>
+    </div>
+    <ng-template #paymentButton>
+        <button (click)="createPayment()">Pay with PayPal</button>
+    </ng-template>
+    <hr />
+</div>

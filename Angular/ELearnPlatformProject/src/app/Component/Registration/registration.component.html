@@ -1,0 +1,80 @@
+<div id="body">
+
+  <div class="login-header">
+    <h1 style="color: white; font-size: 60px; position: relative; top:180px;left:280px; font-family: Garamond !important; ">Registration</h1>
+    <img src="Images/logo.png" style="width: 350px; position: relative; top:200px; left:250px;" alt="logo">
+  </div>
+
+  <form (ngSubmit)="registerStudent()" class="container  register-form">
+    <!-- <h2 class="form-title">Register Student</h2>  -->
+
+    <!-- User Details -->
+    <div class="mb-3 input-group">
+      <!-- <label for="name" class="form-label">Name:</label> -->
+      <input type="text" id="name" [(ngModel)]="student.name" name="name" required class="form-control"
+             (blur)="validateField('name')"         placeholder="Enter Your Name"     />
+      <div *ngIf="invalidFields.name" class="text-danger mt-1">Name Not Valid</div>
+    </div>
+
+    <div class="mb-3 input-group">
+      <!-- <label for="email" class="form-label">Email:</label> -->
+      <input type="email" id="email" [(ngModel)]="student.email" name="email" required class="form-control"
+             (blur)="validateField('email')"   placeholder="Enter Your Email"  />
+      <div *ngIf="invalidFields.email" class="text-danger mt-1">Email Not Valid</div>
+    </div>
+
+    <div class="mb-3 input-group">
+      <!-- <label for="password" class="form-label">Password:</label> -->
+      <input type="password" id="password" [(ngModel)]="student.password" name="password" required class="form-control"
+             (blur)="validateField('password')"     placeholder="Enter Your Password" />
+      <div *ngIf="invalidFields.password" class="text-danger mt-1">Password Not Valid</div>
+    </div>
+
+    <div class="mb-3 input-group">
+      <!-- <label for="confirmPassword" class="form-label">Confirm Password:</label> -->
+      <input type="password" id="confirmPassword" [(ngModel)]="confirmPassword" name="confirmPassword" required class="form-control"
+             (blur)="validateConfirmPassword()"       placeholder="Enter Confirmation Password"  />
+      <div *ngIf="invalidFields.confirmPassword" class="text-danger mt-1">Passwords do not match</div>
+    </div>
+
+    <div class="mb-3 input-group">
+      <!-- <label for="phone" class="form-label">Phone:</label> -->
+      <input type="text" id="phone" [(ngModel)]="student.phone" name="phone" required maxlength="11" class="form-control"
+             (blur)="validateField('phone')"   placeholder="Enter Your Phone"    />
+      <div *ngIf="invalidFields.phone" class="text-danger mt-1">Phone Not Valid</div>
+    </div>
+
+    <!-- Student Details -->
+    <div class="mb-3 input-group">
+      <!-- <label for="gradeLevel" class="form-label">Grade Level:</label> -->
+      <select id="gradeLevel" [(ngModel)]="student.gradeLevel" name="gradeLevel" required class="form-select"
+              (blur)="validateField('gradeLevel')">
+        <option value="" disabled selected>Select grade level</option>
+        <option value="F">1</option>
+        <option value="S">2</option>
+        <option value="T">3</option>
+      </select>
+      <div *ngIf="invalidFields.gradeLevel" class="text-danger mt-1">Grade Level Not Valid</div>
+    </div>
+
+    <div class="mb-3 input-group">
+      <!-- <label for="governorate" class="form-label">Governorate:</label> -->
+      <select id="governorate" [(ngModel)]="student.governorate" name="governorate" required class="form-select"
+              (blur)="validateField('governorate')">
+        <option value="" disabled selected>Select a governorate</option>
+        <option *ngFor="let province of governorates" [value]="province">{{ province }}</option>
+      </select>
+      <div *ngIf="invalidFields.governorate" class="text-danger mt-1">Governorate Not Valid</div>
+    </div>
+
+    <div class="mb-3 input-group">
+      <!-- <label for="parentPhone" class="form-label">Parent Phone:</label> -->
+      <input type="text" id="parentPhone" [(ngModel)]="student.parentPhone" name="parentPhone" required maxlength="11" class="form-control"
+             (blur)="validateField('parentPhone')"    placeholder="Enter Your Parent  Phone"  />
+      <div *ngIf="invalidFields.parentPhone" class="text-danger mt-1">Parent Phone Not Valid</div>
+    </div>
+
+    <button type="submit" class="btn btn-primary submit-button">Register</button>
+  </form>
+
+</div>

@@ -1,0 +1,18 @@
+<div class="container">
+  <h3 class="text-center lesson-title">Upload Receipt Image</h3>
+  <div class="form-group">
+    <label for="receiptInput" class="form-label">Select Receipt Image</label>
+    <input type="file" id="receiptInput" accept="image/*" class="form-control" (change)="onFileSelected($event)" />
+    
+    <div class="mt-3">
+      <button class="btn " (click)="submit()">Send</button>
+      <!-- <button class="btn btn-success" style="margin-left: 10px;" (click)="GoToHome()">Back</button> -->
+    </div>
+    
+    <span class="text-danger" *ngIf="showError">{{ errorMessage }}</span>
+  </div>
+  
+  <div class="text-center">
+    <img *ngIf="imageUrl" [src]="imageUrl" alt="Selected Receipt" class="img-fluid mt-3 responsive-image" />
+  </div>
+</div>

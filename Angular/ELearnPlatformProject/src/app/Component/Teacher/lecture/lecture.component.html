@@ -1,0 +1,22 @@
+
+  <div class="lecture-container">
+    <app-lecture-card>
+    </app-lecture-card>
+  </div>
+
+
+  <app-edit-lecture
+  *ngIf="selectedLecture"
+  [lecture]="selectedLecture"
+  (save)="onSaveLecture($event)"
+  (close)="onCloseModal()"
+></app-edit-lecture>
+
+
+<!-- <app-lecture-card
+      *ngFor="let lecture of lectures"
+      [lecture]="lecture"
+      (edit)="onEditLecture(lecture)">
+    </app-lecture-card> -->
+
+

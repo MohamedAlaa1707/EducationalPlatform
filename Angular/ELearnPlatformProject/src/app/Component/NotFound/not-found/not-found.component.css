@@ -1,0 +1,46 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ملء الشاشة عموديًا */
+    background-color: #c5c5c4; /* لون خلفية الخطأ */
+    color: rgb(221, 59, 59); /* لون النص */
+    text-align: center; /* توسيط النص */
+}
+
+.error-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.error-image {
+    width: 200px; /* عرض الصورة */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    margin-bottom: 30px;
+}
+
+.back-home-button {
+    background-color: #ffffff; /* لون الزر */
+    color: #e74c3c; /* لون النص */
+    padding: 12px 20px; /* حشو الزر */
+    border: none;
+    border-radius: 5px; /* زوايا دائرية */
+    text-decoration: none; /* إزالة السطر تحت النص */
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* تأثير التحويم */
+}
+
+.back-home-button:hover {
+    background-color: #f0f0f0; /* لون الزر عند التحويم */
+}
+.error-icon {
+    font-size: 100px; /* حجم الأيقونة */
+    color: rgb(221, 59, 59); /* لون الأيقونة */
+    margin-bottom: 20px; /* مسافة بين الأيقونة والنص */
+}

@@ -1,0 +1,50 @@
+<div class="mat-elevation-z8" style="margin-top: 30px;">
+  <table mat-table [dataSource]="dataSource" class="mat-table text-center" matSort>
+
+    <!-- Grade Level Column -->
+    <ng-container matColumnDef="gradeLevel">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Grade Level </th>
+      <td mat-cell *matCellDef="let question"> {{ question.gradeLevel }} </td>
+    </ng-container>
+
+    <!-- Lesson Name Column -->
+    <ng-container matColumnDef="lessonTitle">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Lesson Name </th>
+      <td mat-cell *matCellDef="let question"> {{ question.lessonTitle }} </td>
+    </ng-container>
+
+    <!-- Question Column -->
+    <ng-container matColumnDef="question">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Question </th>
+      <td mat-cell *matCellDef="let question"> {{ question.question }} </td>
+    </ng-container>
+
+    <!-- Reply Column -->
+    <ng-container matColumnDef="reply">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Reply </th>
+      <td mat-cell *matCellDef="let question"> {{ question.reply }} </td>
+    </ng-container>
+
+    <!-- Common Question Column -->
+    <ng-container matColumnDef="selected">
+      <th mat-header-cell *matHeaderCellDef> Common Question </th>
+      <td mat-cell *matCellDef="let question">
+        <mat-checkbox [(ngModel)]="question.selected" name="question{{ question.id }}">
+          Choose
+        </mat-checkbox>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <!-- Pagination Control -->
+  <mat-paginator [pageSizeOptions]="[1, 2, 3]" showFirstLastButtons aria-label="Select page of questions"></mat-paginator>
+
+
+
+</div>
+<div class="d-flex justify-content-center mt-3">
+  <button class="btn btn-primary" (click)="sendSelectedQuestions()">Send</button>
+</div>

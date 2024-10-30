@@ -1,0 +1,51 @@
+<div *ngIf="paidLessons.length > 0; else noData">
+  <h3 style="text-align: center;">Your Paid Lessons</h3>
+  <div class="lessons-container">
+    <div *ngFor="let lesson of paidLessons" class="lesson-card">
+      <h3>{{ lesson.title }}</h3>
+      <p>{{ lesson.description }}</p>
+      <button (click)="watchLesson(lesson)" class="btn btn-primary">Watch Now</button>
+    </div>
+  </div>
+</div>
+
+<ng-template #noData>
+  <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+  <p *ngIf="!errorMessage" class="no-lessons-message">You haven't paid for any lessons yet.</p>
+</ng-template>
+
+
+
+
+
+<!--
+description
+:
+"First Lesson About Basic Grammer"
+feeAmount
+:
+100
+gradeLevel
+:
+"F"
+homeWorkEvaluation
+:
+"accept"
+homeworkUrl
+:
+null
+lessonId
+:
+1
+pdfUrl
+:
+"lesson500.mp4"
+title
+:
+"Basic Grammer"
+uploadDate
+:
+"2024-10-03"
+videoUrl
+:
+null -->

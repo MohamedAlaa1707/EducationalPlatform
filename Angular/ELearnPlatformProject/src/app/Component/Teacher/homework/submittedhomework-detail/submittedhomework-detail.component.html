@@ -1,0 +1,25 @@
+<div class="homework-details">
+  <h2>HomeWork Details :</h2>
+
+  <label for="student-name">Student Name : {{ allde.userName }}</label>
+
+  <label for="course-title">Course Title : {{ allde.lessonTitle }}</label>
+
+
+  <div>
+    <label for=""> Submission Date : {{ allde.submissionDate }} </label>
+
+
+  </div>
+  <div>
+    <label for=""> Submission Link  :  <a [href]="allde.submissionLink" target="_blank">PDF</a> </label>
+
+  </div>
+
+  <div class="buttons">
+    <button class="accept-button" (click)="onaccept(allde.lessonId,allde.studentId)">Accept</button>
+    <button class="reject-button"(click)= "onreject(allde.lessonId,allde.studentId)">Reject</button>
+  </div>
+
+</div>
+

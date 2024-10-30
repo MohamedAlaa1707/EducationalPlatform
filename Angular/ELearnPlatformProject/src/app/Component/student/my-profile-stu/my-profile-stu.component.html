@@ -1,0 +1,57 @@
+<div class="my-account-container">
+  <h3>Reset Password</h3>
+
+  <form [formGroup]="myAccountForm" (ngSubmit)="onSubmit()">
+    <!-- Email Input Field -->
+    <div class="form-group">
+      <!-- <label for="email">Email:</label> -->
+      <input id="email" formControlName="Email" type="email" class="form-control" placeholder="Enter your email" />
+      <div *ngIf="myAccountForm.get('Email')?.invalid && myAccountForm.get('Email')?.touched" class="error-message">
+        Invalid email address.
+      </div>
+    </div>
+
+    <!-- Old Password Input Field -->
+    <div class="form-group">
+      <!-- <label for="oldPassword">Old Password:</label> -->
+      <input id="oldPassword" formControlName="oldPassword" type="password" class="form-control" placeholder="Enter old password" />
+      <div *ngIf="myAccountForm.get('oldPassword')?.invalid && myAccountForm.get('oldPassword')?.touched" class="error-message">
+        Old password is required and must be at least 6 characters long.
+      </div>
+    </div>
+
+    <!-- New Password Input Field -->
+    <div class="form-group">
+      <!-- <label for="newPassword">New Password:</label> -->
+      <input id="newPassword" formControlName="newPassword" type="password" class="form-control" placeholder="Enter new password" />
+      <div *ngIf="myAccountForm.get('newPassword')?.invalid && myAccountForm.get('newPassword')?.touched" class="error-message">
+        New password is required and must be at least 6 characters long.
+      </div>
+    </div>
+
+    <!-- Confirm New Password Input Field -->
+    <div class="form-group">
+      <!-- <label for="confirmPassword">Confirm New Password:</label> -->
+      <input id="confirmPassword" formControlName="confirmPassword" type="password" class="form-control" placeholder="Repeat new password" />
+      <div *ngIf="myAccountForm.get('confirmPassword')?.invalid && myAccountForm.get('confirmPassword')?.touched" class="error-message">
+        Confirm password is required and must be at least 6 characters long.
+      </div>
+      <div *ngIf="!passwordsMatch() && myAccountForm.get('confirmPassword')?.touched" class="error-message">
+        Passwords do not match.
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary" [disabled]="myAccountForm.invalid || !passwordsMatch()">Reset Password</button>
+  </form>
+
+  <!-- Success Message -->
+  <div *ngIf="successMessage" class="success-message">
+    {{ successMessage }}
+  </div>
+
+  <!-- Error Message -->
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+</div>

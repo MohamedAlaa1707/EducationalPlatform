@@ -1,0 +1,20 @@
+<div *ngFor="let qa of QAL" class="lesson-section mb-4">
+  <h3 class="lesson-title text-center">Lesson Name: {{ qa.lessonName }}</h3>
+
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr class="text-center">
+          <th class="question-column">Question</th>
+          <th class="reply-column">Reply</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="text-wrap">{{ qa.questionText }}</td>
+          <td class="text-wrap">{{ qa.replyText }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,89 @@
+
+<app-lesson-status-chart></app-lesson-status-chart>
+
+<br>
+<div *ngIf="lessonStats.length > 0; else noData">
+  <h3 class="level-header text-center mt-3">Levels in Detail</h3>
+  <br>
+
+  <!-- Table for Level 1 -->
+  <h3 class="level-header">Level 1</h3>
+  <table class="statistics-table table table-bordered text-center">
+    <thead class="thead-dark">
+      <tr>
+        <th>Lesson Name</th>
+        <th>Income</th>
+        <th>Number of Students</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let lesson of level1">
+        <td>{{ lesson.title }}</td>
+        <td>{{ lesson.totalFeeCollected | currency }}</td>
+        <td>{{ lesson.numberOfStudents }}</td>
+      </tr>
+      <tr class="table-footer">
+        <td><strong>Total Income for Level 1</strong></td>
+        <td><strong>{{ totalIncome1 | currency }}</strong></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <br><br>
+
+  <!-- Table for Level 2 -->
+  <h3 class="level-header">Level 2</h3>
+  <table class="statistics-table table table-bordered text-center">
+    <thead class="thead-dark">
+      <tr>
+        <th>Lesson Name</th>
+        <th>Income</th>
+        <th>Number of Students</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let lesson of level2">
+        <td>{{ lesson.title }}</td>
+        <td>{{ lesson.totalFeeCollected | currency }}</td>
+        <td>{{ lesson.numberOfStudents }}</td>
+      </tr>
+      <tr class="table-footer">
+        <td><strong>Total Income for Level 2</strong></td>
+        <td><strong>{{ totalIncome2 | currency }}</strong></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <br><br>
+
+  <!-- Table for Level 3 -->
+  <h3 class="level-header">Level 3</h3>
+  <table class="statistics-table table table-bordered text-center">
+    <thead class="thead-dark">
+      <tr>
+        <th>Lesson Name</th>
+        <th>Income</th>
+        <th>Number of Students</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let lesson of level3">
+        <td>{{ lesson.title }}</td>
+        <td>{{ lesson.totalFeeCollected | currency }}</td>
+        <td>{{ lesson.numberOfStudents }}</td>
+      </tr>
+      <tr class="table-footer">
+        <td><strong>Total Income for Level 3</strong></td>
+        <td><strong>{{ totalIncome3 | currency }}</strong></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Display error message or no data message -->
+<ng-template #noData>
+  <p *ngIf="errorMessage" class="text-center text-danger">{{ errorMessage }}</p>
+  <p *ngIf="!errorMessage" class="text-center">No data available for the last 14 days.</p>
+</ng-template>
+

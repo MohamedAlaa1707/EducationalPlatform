@@ -1,0 +1,53 @@
+.container {
+    margin: 20px auto; /* إضافة مسافة تلقائية للهوامش */
+    padding: 20px;
+    background-color: #ecf0f1; /* لون خلفية الحاوية */
+    border-radius: 10px; /* زوايا مستديرة */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    font-family: 'Lucida Sans',sans-serif;
+  }
+  
+  .lesson-title {
+    font-size: 24px; /* حجم الخط */
+    color: #2c3e50; /* لون العنوان */
+    margin-bottom: 20px; /* مسافة سفلية */
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .form-label {
+    font-weight: bold; /* جعل نص التسمية عريضًا */
+    font-size: 20px;
+  }
+  
+  .btn {
+    font-size: 18px; /* حجم خط الزر */
+    background-color: #2c3e50;
+    color: white;
+    width: 100px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* لون خلفية الزر الأول */
+    border: none; /* إزالة الحدود */
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* لون خلفية الزر الثاني */
+    border: none; /* إزالة الحدود */
+  }
+  
+  .btn-primary:hover,
+  .btn-success:hover {
+    filter: brightness(90%); /* تأثير عند التمرير */
+  }
+  
+  .text-danger {
+    margin-top: 10px; /* إضافة مسافة علوية */
+  }
+  
+  .responsive-image {
+    max-width: 100%; /* جعل الصورة متجاوبة */
+    height: auto; /* الحفاظ على نسبة الأبعاد */
+  }
+  

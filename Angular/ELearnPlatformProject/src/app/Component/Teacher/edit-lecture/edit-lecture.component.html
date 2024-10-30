@@ -1,0 +1,96 @@
+
+
+<div *ngIf="showModal">
+  <div class="modal-backdrop" (click)="closeModal()"></div>
+  <div class="modal-content">
+    <div class="edit-lecture">
+      <h3 style="text-align: center;">Edit Lecture</h3>
+
+      <!-- <span class=" alert alert-danger mt-2" *ngIf="showError">{{ errorMessage }}</span> -->
+
+      <input type="hidden" [(ngModel)]="editedLecture.lessonId">
+      <input type="hidden" [(ngModel)]="editedLecture.gradeLevel">
+      <div class="form-group row">
+        <label class="col-2">Title</label>
+        <input class="col-10 small-input" [(ngModel)]="editedLecture.title" required (blur)="validateField('title')" (change)="markChanges()" style="width: 20%; margin-left: -70px;" />
+        <div *ngIf="invalidFields.title" class="text-danger mt-1 col-12">
+          Title is required, should be less than 50 characters, and should not start with a number.
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-2">Description</label>
+        <input class="col-10 small-input" [(ngModel)]="editedLecture.description" required (blur)="validateField('description')" (change)="markChanges()" style="width: 20%; margin-left: -70px;" />
+        <div *ngIf="invalidFields.description" class="text-danger mt-1 col-12">
+          Description is required.
+        </div>
+      </div>
+      <div class="form-group row">
+        <input class="col-10 small-input" type="date" [(ngModel)]="editedLecture.uploadDate" required (blur)="validateField('uploadDate')" hidden style="width: 20%; margin-left: -70px;"/>
+        <div *ngIf="invalidFields.uploadDate" class="text-danger mt-1 col-12">
+          Date is required.
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-2">Price</label>
+        <input class="col-10 small-input" [(ngModel)]="editedLecture.feeAmount" type="number" min="1" required (blur)="validateField('feeAmount')"  (change)="markChanges()" style="width: 20%; margin-left: -70px;"/>
+        <div *ngIf="invalidFields.feeAmount" class="text-danger mt-1 col-12">
+          Price must be greater than 0.
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-2">Grade Level</label>
+        <input class="col-10 small-input" [(ngModel)]="editedLecture.gradeLevel" required (blur)="validateField('gradeLevel')" readonly style="width: 20%; margin-left: -70px;"/>
+        <div *ngIf="invalidFields.gradeLevel" class="text-danger mt-1 col-12">
+          Grade Level is required.
+        </div>
+      </div>
+      <div class="form-group row ">
+        <label class="col-3">Lecture Video</label>
+        <div class="video d-flex ">
+          <div *ngIf="editedLecture.videoURL" class="me-2">
+            <a [href]="editedLecture.videoURL" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a>&nbsp;
+            <a (click)="removeVideo()" style="color: red; cursor: pointer;"><i class="fa-regular fa-trash-can"></i></a>
+          </div>
+          <input type="file" class="form-control-file me-2" (change)="onVideoSelected($event)" accept="video/*" [disabled]="editedLecture.videoURL" (blur)="validateField('videoURL')" />
+          <div *ngIf="invalidFields.videoURL" class="text-danger mt-1">
+            Video file is required.
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-3">Homework PDF</label>
+        <div class="homework d-flex ">
+          <div *ngIf="editedLecture.homeworkURL" class="me-2">
+            <a [href]="editedLecture.homeworkURL" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>&nbsp;
+            <a (click)="removeHomeworkPDF()" style="color: red; cursor: pointer;"><i class="fa-regular fa-trash-can"></i></a>
+        </div>
+        <input type="file" class="form-control-file me-2" (change)="onHomeworkPDFSelected($event)" accept=".pdf" [disabled]="editedLecture.homeworkURL" (blur)="validateField('homeworkURL')" />
+        <div *ngIf="invalidFields.homeworkURL" class="text-danger mt-1">
+          Homework PDF is required.
+        </div>
+      </div>
+      <div class="form-group row ">
+        <label class="col-3">Upload Summary </label>
+        <div class="attached d-flex ">
+          <div *ngIf="editedLecture.pdfurl" class="me-2">
+            <a [href]="editedLecture.pdfurl" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>&nbsp;
+            <a (click)="removeAttachedFile()" style="color: red; cursor: pointer;"><i class="fa-regular fa-trash-can"></i></a>
+          </div>
+          <input type="file" class="form-control-file me-2" (change)="onFileSelected($event)" accept=".pdf" [disabled]="editedLecture.pdfurl" (blur)="validateField('pdfURL')" />
+          <div *ngIf="invalidFields.pdfURL" class="text-danger mt-1">
+            Attachment file is required.
+          </div>
+        </div>
+      </div> <br>
+      <div class="button-group row">
+        <button class="btn btn-primary" (click)="save()"   [disabled]="!hasChanges" >Save</button>
+        <button class="btn btn-secondary" (click)="closeModal()" >Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="tooltip"><i class="fa-solid fa-arrow-up-right-from-square" ></i><span class="tooltiptext">Show Current</span> </div>
+<div class="tooltip"><i class="fa-regular fa-trash-can"></i><span class="tooltiptext">Remove</span> </div> -->
+

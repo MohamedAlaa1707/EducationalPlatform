@@ -1,0 +1,108 @@
+<div class="container video-container mt-4">
+  <div class="card shadow-lg">
+
+      <div class="card-header dd  text-white text-center">
+          <h4 class="mb-0">Lecture</h4>
+      </div>
+      <div class="card-body">
+          <div class="video-wrapper">
+              <video #videoPlayer
+                  [src]="curentlesson.videoURL"
+                     style="width: 600px ; height: 400px; max-width: 100%;"    controlsList="nodownload" >
+
+
+              </video>
+
+              <!-- crossorigin="anonymous"
+              preload="none"
+              class="video-player"
+              (contextmenu)="onContextMenu($event)"
+              controlsList="nodownload" -->
+              <div class="video-overlay">
+                  <button *ngIf="isPaused" (click)="togglePlay()" class="play-button">
+                      <i class="fas fa-play"></i>
+                  </button>
+                  <button *ngIf="!isPaused" (click)="togglePlay()" class="play-button">
+                      <i class="fas fa-pause"></i>
+                  </button>
+                  <button (click)="toggleFullScreen()" class="full-screen-button">
+                      <i class="fas fa-expand"></i>
+                  </button>
+              </div>
+          </div>
+
+          <h5 class="card-title">{{ curentlesson.title }}</h5>
+          <p class="card-text" style="font-size: 24px;">{{ curentlesson.description }}</p>
+
+          <div class="mb-3">
+              <a *ngIf="curentlesson.pdfurl" [href]="curentlesson.pdfurl" target="_blank" class="btn btn-secondary me-2" download>Show Lesson PDF</a>
+              <a *ngIf="curentlesson.homeworkURL" [href]="curentlesson.homeworkURL" target="_blank" class="btn btn-secondary" download>Show Homework</a>
+          </div>
+
+          <h6>Upload Your Homework</h6>
+          <div class="d-flex align-items-center mb-3">
+              <form [formGroup]="uploadForm" (ngSubmit)="onSubmit(curentlesson.lessonId)">
+                  <ng-container *ngIf="curentlesson.homeWorkEvaluation === 'accept'; else rejectOrPending">
+                      <div class="alert alert-success" role="alert">
+                          The homework has been accepted.
+                      </div>
+                  </ng-container>
+
+                  <ng-template #rejectOrPending>
+                    <div *ngIf="alertMessage" class="alert" [ngClass]="{'alert-success': isSuccess, 'alert-danger': !isSuccess}" role="alert">
+                        {{ alertMessage }}
+                    </div>
+                      <ng-container *ngIf="curentlesson.homeWorkEvaluation === 'reject'; else pending">
+                          <div class="alert alert-danger" role="alert">
+                              The homework has been rejected, please upload your homework again.
+                          </div>
+                          <input style="width: 50%;" type="file" id="receiptInput" accept="application/pdf" (change)="onFileChange($event)" class="form-control me-2" />
+                          <button type="submit" class="btn btn-outline-primary ms-auto" style="position: relative; left:300px; bottom: 38px;" [disabled]="!isFileValid">Send</button>
+                      </ng-container>
+                      <ng-template #pending >
+                          <ng-container *ngIf="curentlesson.homeWorkEvaluation === 'Pending' ; else other" >
+                              <div class="alert alert-warning" role="alert">
+                                  The homework is pending review.
+                              </div>
+                          </ng-container>
+
+                          <ng-template #other >
+                            <ng-container>
+                                <div >
+                                  <input #input1   style="width: 70%;" type="file" id="receiptInput" accept="application/pdf" (change)="onFileChange($event)" class="form-control me-2" />
+                                  <button type="submit" class="btn btn-outline-primary ms-auto" [disabled]="!isFileValid" style="position: relative; left:300px; bottom: 38px;">Send</button>
+                                </div>
+                            </ng-container>
+
+                        </ng-template>
+
+                      </ng-template>
+                  </ng-template>
+              </form>
+          </div>
+
+          <div *ngIf="errorMessage" class="alert alert-danger mt-2">{{ errorMessage }}</div>
+
+          <div *ngFor="let item of allessage;" class="message-container">
+              <div class="mb-2">
+                  <label class="form-label">Student's Question:</label>
+                  <label class="form-control form-control-sm">{{ item.question }}</label>
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Teacher's Reply:</label>
+                  <label class="form-control form-control-sm">{{ item.reply }}</label>
+              </div>
+          </div>
+
+          <div class="mb-2">
+              <label class="form-label">Type your question here:</label>
+              <textarea id="studentQuestion" class="form-control form-control-sm" rows="2" placeholder="Type your question here..."></textarea>
+          </div>
+          <button (click)="onSubmitQuestion()" class="btn btn-sm" style="width: 200px; background-color: #2c3e50; font-size: 16px; color: white;">Submit</button>
+      </div>
+
+      <!-- <div class="text-start">
+          <button (click)="Back()" class="btn btn-success btn-sm m-2">Back</button>
+      </div> -->
+  </div>
+</div>

@@ -1,0 +1,55 @@
+body {
+  background-color: #F0F0F0; /* لون الخلفية العامة */
+  padding-top: 60px; /* مسافة علوية للجسم */
+}
+
+main {
+  margin-top: 30px; /* مسافة علوية للمحتوى الرئيسي */
+}
+
+#upload {
+  width: 350px; /* عرض زر التحميل */
+  font-size: 30px; /* حجم خط الزر */
+  border-radius: 10px; /* زوايا مستديرة للزر */
+  position: sticky; /* تثبيت الزر في مكانه */
+}
+
+.row {
+  margin-right: 0; /* إزالة الهامش الأيمن */
+  margin-left: 0; /* إزالة الهامش الأيسر */
+}
+
+.Level {
+  padding: 3px; /* حشوة للخلفية */
+  background-color: #696969; /* لون الخلفية للأقسام */
+  color: white; /* لون النص */
+  font-weight: bold; /* جعل النص عريضًا */
+  text-align: center; /* محاذاة النص في الوسط */
+  border-radius: 10px; /* زوايا مستديرة */
+}
+
+.table {
+  background-color: #B0C4DE; /* لون خلفية الجدول */
+  margin-top: 20px; /* مسافة علوية للجدول */
+}
+
+thead.thead-dark th {
+  background-color: #343a40; /* لون خلفية رأس الجدول */
+  color: white; /* لون النص */
+}
+
+th,
+td {
+  text-align: center; /* محاذاة النص في الوسط */
+}
+
+#ShowAll {
+  margin-top: 20px; /* مسافة علوية للزر "Show All" */
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: static;
+    width: 100%; /* عرض الشريط الجانبي */
+  }
+}

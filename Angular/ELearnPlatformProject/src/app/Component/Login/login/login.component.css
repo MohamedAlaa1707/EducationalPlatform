@@ -1,0 +1,132 @@
+/* General page styling */
+.body {
+
+  /* background-color: rgb(184, 184, 184);  */
+  background-image: url("../../../../../public/Images/bg1.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Lucida Sans', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* للتوسيط أفقيًا */
+  align-items: center; /* للتوسيط عموديًا */
+  height: 100vh; /* ارتفاع الصفحة بالكامل */
+}
+
+/* Login card styling */
+.login-card {
+  background-color: #ffffff; /* لون خلفية البطاقة */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border: none; /* إزالة الإطار */
+  padding: 40px; /* زيادة الحشو */
+  width: 100%;
+  max-width: 400px; /* تحديد عرض البطاقة */
+  text-align: center;
+  position: relative;
+}
+
+/* Header styling */
+.login-header h1 {
+  /* color: #007bff;  */
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+  color: black;
+  /* opacity: 100%; */
+}
+
+/* Input fields */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  color: #007bff; /* لون النص */
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px; /* زيادة الحشو */
+  border: 2px solid #007bff; /* لون الحدود */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Login button */
+.login-button {
+  background-color: #007bff; /* لون الزر */
+  color: white;
+  border: none;
+  padding: 15px; /* زيادة الحشو */
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* اللون عند التحويم */
+}
+
+/* Google and Facebook buttons */
+.btn-google, .btn-facebook {
+  background-color: white;
+  color: #007bff; /* لون النص */
+  border: 2px solid #007bff; /* لون الحدود */
+  padding: 15px; /* زيادة الحشو */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px; /* مسافة بين الأزرار */
+}
+
+.btn-google:hover {
+  background-color: #e74c3c; /* تغيير لون الخلفية عند التحويم */
+  color: white; /* لون النص عند التحويم */
+}
+
+.btn-facebook:hover {
+  background-color: #3b5998; /* تغيير لون الخلفية عند التحويم */
+  color: white; /* لون النص عند التحويم */
+}
+
+/* Registration button */
+.registration {
+  margin-top: 20px;
+}
+
+.registration .btn-secondary {
+  background-color: transparent;
+  color: #007bff; /* لون النص */
+  border: 2px solid #007bff; /* لون الحدود */
+  padding: 15px; /* زيادة الحشو */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.registration .btn-secondary:hover {
+  background-color: #007bff; /* تغيير لون الخلفية عند التحويم */
+  color: white; /* لون النص عند التحويم */
+}
+
+/* Error message */
+.text-danger {
+  margin-top: 20px;
+  color: #e74c3c; /* لون الخطأ */
+  font-weight: bold;
+}
+a:hover{
+ color: #0056b3;
+
+}

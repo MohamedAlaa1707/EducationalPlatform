@@ -1,0 +1,26 @@
+<div *ngIf="successMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+  {{ successMessage }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<div *ngIf="errorMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+  {{ errorMessage }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<div class="receipt-details">
+  <h2>Receipt Details</h2>
+
+  <label for="student-name">Student Name: {{ studentName }}</label>
+  <label for="grade-level">Grade Level: {{ gradeLevel }}</label>
+  <label for="lesson-name">Lesson Name: {{ title }}</label>
+  <label for="price">Price: {{ feeAmount }}</label>
+
+  <label for="receipt-image-link">Receipt:</label>
+  <img [src]="receiptImageLink" alt="Receipt" class="receipt-image">
+
+  <div class="buttons">
+    <button class="accept-button" (click)="onAccept()">Accept</button>
+    <button class="reject-button" (click)="onReject()">Reject</button>
+  </div>
+</div>

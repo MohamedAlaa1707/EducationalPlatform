@@ -1,0 +1,87 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+.receipt-details {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #2c3e50;
+}
+
+.receipt-details h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.receipt-details label {
+  display: block;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.receipt-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #2c3e50;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accept-button, .reject-button {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.accept-button:hover {
+  background-color: #27ae60;
+}
+
+.reject-button:hover {
+  background-color: #e74c3c;
+}
+
+.alert {
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.alert-success {
+  background-color: #27ae60;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.alert .btn-close {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+}
+
