@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDFHomework\\HW.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDFHomework\\HW.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDFHomework\\HW2.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDFHomework\\HW2.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDFHomework\\HW3.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDFHomework\\HW3.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDFHomework\\HW4.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDFHomework\\HW4.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\HW.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\HW.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\HW2.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\HW2.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\HW3.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\HW3.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\HW4.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\HW4.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\Lesson2.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\Lesson2.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\Lesson3.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\Lesson3.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\Lesson4.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\Lesson4.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\lesson1.pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\lesson1.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\lesson500.mp4",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\lesson500.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\PDF\\placement test (2).pdf",
+      "PackagePath": "staticwebassets\\Levels\\One\\PDF\\placement test (2).pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\ReceiptImages\\photo_1_2024-10-20_06-56-49.jpg",
+      "PackagePath": "staticwebassets\\Levels\\One\\ReceiptImages\\photo_1_2024-10-20_06-56-49.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\ReceiptImages\\photo_8_2024-10-20_06-56-49.jpg",
+      "PackagePath": "staticwebassets\\Levels\\One\\ReceiptImages\\photo_8_2024-10-20_06-56-49.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\Video\\[Arabic] Learn Git & GitHub #03 - Create Github Repository And Clone It (720p_30fps_H264-192kbit_AAC).mp4",
+      "PackagePath": "staticwebassets\\Levels\\One\\Video\\[Arabic] Learn Git & GitHub #03 - Create Github Repository And Clone It (720p_30fps_H264-192kbit_AAC).mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\Video\\comparison Examples.mp4",
+      "PackagePath": "staticwebassets\\Levels\\One\\Video\\comparison Examples.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\Video\\comparison details.mp4",
+      "PackagePath": "staticwebassets\\Levels\\One\\Video\\comparison details.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\Video\\comparison explain.mp4",
+      "PackagePath": "staticwebassets\\Levels\\One\\Video\\comparison explain.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\Video\\lesson1.mp4",
+      "PackagePath": "staticwebassets\\Levels\\One\\Video\\lesson1.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\Video\\lesson2.mp4",
+      "PackagePath": "staticwebassets\\Levels\\One\\Video\\lesson2.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\One\\Video\\since.mp4",
+      "PackagePath": "staticwebassets\\Levels\\One\\Video\\since.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\HW2.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\HW2.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\HW4 7.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\HW4 7.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\HW4.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\HW4.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\HW5.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\HW5.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\HW6.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\HW6.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\HW8.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\HW8.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\Lesson3.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\Lesson3.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\Test4.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\Test4.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\TestHomework4.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\TestHomework4.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\erd.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\erd.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDFHomework\\ss.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDFHomework\\ss.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\'PREPOSITIONS' .pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\'PREPOSITIONS' .pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\HW.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\HW.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\HW2.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\HW2.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\HW3.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\HW3.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\HW4 7.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\HW4 7.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\HW6.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\HW6.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\HW8.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\HW8.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\Lesson1.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\Lesson1.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\Lesson2.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\Lesson2.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\Lesson6.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\Lesson6.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\Lesson7.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\Lesson7.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\Lesson8.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\Lesson8.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\Test4.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\Test4.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\TestHomework4.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\TestHomework4.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\erd.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\erd.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\hhhhhhhhhhhhhhhhhhhhhhhhh.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\hhhhhhhhhhhhhhhhhhhhhhhhh.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\lesson3.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\lesson3.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\rrrrrrrr.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\rrrrrrrr.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\rrrrrrrrrrrrrrrrrrrr.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\rrrrrrrrrrrrrrrrrrrr.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\update.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\update.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\we.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\we.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\PDF\\wwwwwwwww.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Three\\PDF\\wwwwwwwww.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\ReceiptImages\\B612_20220716_003409_545.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\ReceiptImages\\B612_20220716_003409_545.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\ReceiptImages\\dd.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\ReceiptImages\\dd.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\ReceiptImages\\me.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\ReceiptImages\\me.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\ReceiptImages\\photo_1_2024-10-20_06-56-49.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\ReceiptImages\\photo_1_2024-10-20_06-56-49.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\ReceiptImages\\photo_2_2024-10-20_06-56-49.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\ReceiptImages\\photo_2_2024-10-20_06-56-49.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\ReceiptImages\\photo_7_2024-10-20_06-56-49.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\ReceiptImages\\photo_7_2024-10-20_06-56-49.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\ReceiptImages\\photo_8_2024-10-20_06-56-49.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\ReceiptImages\\photo_8_2024-10-20_06-56-49.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\ReceiptImages\\ss.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Three\\ReceiptImages\\ss.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\comparison Examples.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\comparison Examples.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\comparison explain.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\comparison explain.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\comparison.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\comparison.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson1.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson1.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson2.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson2.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson200.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson200.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson2000.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson2000.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson4.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson4.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson5.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson5.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson545.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson545.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson7.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson7.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\lesson800.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\lesson800.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\present simple Full.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\present simple Full.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\since.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\since.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\test1.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\test1.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Three\\Video\\test4.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Three\\Video\\test4.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDFHomework\\HW.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDFHomework\\HW.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDF\\'PREPOSITIONS' .pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDF\\'PREPOSITIONS' .pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDF\\HW.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDF\\HW.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDF\\HW2.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDF\\HW2.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDF\\HW3.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDF\\HW3.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDF\\Lesson1.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDF\\Lesson1.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDF\\Lesson3.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDF\\Lesson3.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDF\\erd.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDF\\erd.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\PDF\\lesson2.pdf",
+      "PackagePath": "staticwebassets\\Levels\\Two\\PDF\\lesson2.pdf"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\ReceiptImages\\mm.jpg",
+      "PackagePath": "staticwebassets\\Levels\\Two\\ReceiptImages\\mm.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\comparison Examples.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\comparison Examples.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\comparison explain.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\comparison explain.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\lesson1.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\lesson1.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\lesson2.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\lesson2.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\lesson3.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\lesson3.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\lesson5.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\lesson5.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\lesson500.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\lesson500.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\present simple Full.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\present simple Full.mp4"
+    },
+    {
+      "Id": "E:\\ITI\\FinalProjectLastVersion25-10-2024\\E-LearningPlatformProject\\API\\EduPlatformAPI\\EduPlatformAPI\\wwwroot\\Levels\\Two\\Video\\test3.mp4",
+      "PackagePath": "staticwebassets\\Levels\\Two\\Video\\test3.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EduPlatformAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EduPlatformAPI.props",
+      "PackagePath": "build\\EduPlatformAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EduPlatformAPI.props",
+      "PackagePath": "buildMultiTargeting\\EduPlatformAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EduPlatformAPI.props",
+      "PackagePath": "buildTransitive\\EduPlatformAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
